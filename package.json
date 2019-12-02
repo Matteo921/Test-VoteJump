@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --colors ./**/*.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "author": "Mateusz",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.2.2",
+    "onchange": "^6.1.0",
+    "os": "^0.1.1"
+  }
+}
